@@ -15,7 +15,7 @@ Add things you want to do and things you don't want to do. Add a weighting to th
 - Second for O:<br><br>
 Add rewards and penalties of your own choosing to your resolutions. Monitor their use and fulfillment.<br><br>
 
-- Third for O:<br><br>
+- Third for N:<br><br>
 Have doubts about something? Write down all the pros and cons. Add a weighting to them. See which decision will be statistically the better one.<br><br>
 
 - Fourth for T:<br><br>
