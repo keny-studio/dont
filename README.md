@@ -1,6 +1,6 @@
 # dont
 
-## $${\color{gold}DONT \space app}$$
+## $${\color{gold}DONT \space - \space Application \space for \space those \space who \space want}$$
 
 DO's & DONT's NoTer
 
