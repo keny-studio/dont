@@ -20,3 +20,32 @@ Have doubts about something? Write down all the pros and cons. Add a weighting t
 
 - Fourth for T:<br><br>
 Do DONT or dont do DONT - the decision is yours.<br><br>
+
+## User Flow Diagram
+
+```mermaid
+---
+config:
+  layout: dagre
+---
+flowchart TB
+    A["User Registration / Login"] --> B["Dashboard"]
+    B --> D["Add Do Item"] & E@{ label: "Add Don't Item" } & K["Add Reward/Penalty"] & N["Decision Helper N Feature"] & R@{ label: "Make Decision: Do DONT or Don't Do DONT" }
+    D --> F["Assign Weighting to Do"]
+    E --> G@{ label: "Assign Weighting to Don't" }
+    F --> H["Mark Do as Completed/Not Completed"]
+    G --> I@{ label: "Mark Don't as Completed/Not Completed" }
+    H --> J["View Stats Daily/Weekly/Monthly"]
+    I --> J
+    K --> L["Assign to Resolution"]
+    L --> M["Monitor Reward/Penalty Fulfillment"]
+    N --> O["Write Pros/Cons"]
+    O --> P["Assign Weighting to Pros/Cons"]
+    P --> Q["View Statistical Recommendation"]
+    J --> S["Feedback/Progress Insights"]
+    M --> S
+    Q --> S
+    E@{ shape: rect}
+    R@{ shape: rect}
+    G@{ shape: rect}
+    I@{ shape: rect}
